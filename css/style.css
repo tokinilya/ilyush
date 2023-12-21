@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    max-width: 1168px;
+    margin: 0;
+    padding: 024px;
+}
+
+
+
+.promo {
+    background: url(../img/duck.jpg);
+    min-height: 100vh;
+    padding: 26px 0;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+.menu a.active
+.menu a:hover {
+color: yellow;
+}
+
+.promo h1 {
+color: var(--white, #FFF);
+font-family: Montserrat;
+font-size: 96px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+
+
+.btn {
+width: 230px;
+height: 50px;
+border-radius: 60px;
+border-radius: 60px;
+background: var(--blue-grad, linear-gradient(93deg, #0499DD 0%, #17C1BC 100%));
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 5px;
+color: var(--white, #FFF);
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+ 
+
+
+ 
